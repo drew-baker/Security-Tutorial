@@ -41,29 +41,29 @@ body {
 	width: 200px;
 	top: 5em;
 	left: 1em;
-	width: 13em;	
 	position:absolute;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size:90%;
+    /*border-radius:10px;*/
 }
 #navigation ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
+    /*border-radius:10px;*/
 }
 #navigation li {
 	border-bottom: 1px solid #ED9F9F;
-    border-radius: 5px;
 }
 #navigation li a  {
-	display: block;
+	display:block;
 	padding: 5px 5px 5px 0.5em;
 	border-left: 12px solid #711515;
 	border-right: 1px solid #711515;
 	background-color: #B51032;
-    border-radius: 5px;
 	color: #FFFFFF;
 	text-decoration: none;
+    /*border-radius:10px;*/
 }
 #navigation li a:hover {
 	background-color: #711515;
@@ -74,7 +74,6 @@ body {
 }
 #navigation ul ul li {
 	border-bottom: 1px solid #711515;
-    border-radius: 5px;
 	margin:0;
 	background-color: #ED9F9F;
 	color: #711515;
@@ -105,7 +104,7 @@ body {
 	margin-top:1em;
 	margin-left: 16em;
 	margin-right: 2em;
-    border-radius: 5px;
+    /*border-radius: 5px;*/
 }
 h1 {
 	font: 150% Arial, Helvetica, Georgia, "Times New Roman", Times, serif;
@@ -118,12 +117,14 @@ h1 {
 #content ul {
 	font-size: 80%;
 	line-height: 1.6em; 
-    border-radius: 5px;
+    /*border-radius: 5px;*/
 }
 
 .Important{
     font-size: large;
     color:red;
 }
-
+.fs {
+    border-width:thin; border-radius:10pt; border-color:cornflowerblue;
+}
 

@@ -19,13 +19,7 @@
     <br />
     <asp:gridview id="RoleList" runat="server" autogeneratecolumns="False" enablemodelvalidation="True" onrowdeleting="RoleList_RowDeleting">
         <Columns>
-            <asp:TemplateField ShowHeader="False">
-                <ItemTemplate>
-                    <asp:Button ID="Button1" runat="server" CausesValidation="False" 
-                        CommandName="Delete" Text="Delete Role" 
-                        OnClientClick="return confirm('Are you sure you want to delete this product?')" />
-                </ItemTemplate>
-            </asp:TemplateField>
+            <asp:CommandField DeleteText="Delete Role" ShowDeleteButton="true" />
             <asp:TemplateField HeaderText="Role">
                 <ItemTemplate>
                     <asp:Label ID="RoleNameLabel" runat="server" Text="<%# Container.DataItem %>"></asp:Label>
